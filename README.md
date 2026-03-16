@@ -15,7 +15,7 @@ git clone https://github.com/beknazar/mindcraft.git ~/.claude/skills/mindcraft
 This is Mindcraft's core feature. Run `/mindcraft board` and watch it work:
 
 1. **Reads your project** — analyzes your code, README, git history, and product context
-2. **Recommends 3 advisors** — picks the right combination based on what you're building (product vision, growth/GTM, execution)
+2. **Recommends 3 advisors from anyone** — not limited to installed mentors. It picks the best combination for your specific project, whether that's PG + Elena + Levels, or Sam Altman + Julie Zhuo + Patrick Collison. Installed mentors get their full verified knowledge base; others are channeled from Claude's knowledge of their public work.
 3. **Opens the session** — each board member gives their initial read on your product
 4. **Asks you what to focus on** — presents focus areas via interactive questions
 5. **Runs discussion rounds** — board members debate, disagree, react to each other

@@ -32,12 +32,24 @@ Read the current project's code, README, CLAUDE.md, and recent git history to un
 - What's your biggest challenge right now? (growth / product / design / technical / fundraising)
 
 **Step 2 — Board Assembly (if auto-recommend):**
-Based on the project context, recommend 3 advisors from the mentor pool. Each fills a different role:
+Based on the project context, recommend 3 advisors. The board is NOT limited to installed mentors. Think globally about who the best advisors would be for THIS specific project.
+
+**How to pick the board:**
+1. First, check `mentors/` for installed mentors whose domains match the project
+2. Then, think beyond installed mentors. If the project needs a design expert, recommend someone like Julie Zhuo or Jony Ive even if they're not installed yet. If it needs a technical architecture expert, recommend someone like DHH or Kelsey Hightower. If it needs an AI strategy expert, recommend Andrej Karpathy or Sam Altman.
+3. For installed mentors, use their full knowledge base (principles.md, frameworks.md, voice.md, etc.)
+4. For non-installed mentors, use your own knowledge of their public writing, talks, and philosophy to channel them authentically
+
+**Each advisor fills a different role based on what the project needs most:**
 - **Product/Vision advisor** — for what to build and why
 - **Growth/GTM advisor** — for how to acquire and retain users
 - **Execution/Technical advisor** — for how to build and ship
+- **Domain expert** — if the project needs specialized knowledge (AI, design, infrastructure, finance, etc.)
+- **Fundraising advisor** — if the project is raising capital
 
-Present the recommended board via AskUserQuestion and let the user confirm or swap members.
+Pick the 3 roles most relevant to the project's current stage and challenges. Don't always default to the same 3 roles.
+
+Present the recommended board via AskUserQuestion and let the user confirm or swap members. Include at least one non-installed mentor recommendation to show the board isn't limited to the 3 launch mentors.
 
 **Step 3 — The Session:**
 Run an interactive brainstorming loop:
