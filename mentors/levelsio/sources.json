@@ -1,0 +1,46 @@
+{
+  "name": "levelsio",
+  "shortcut": "levels",
+  "sources": {
+    "twitter": {
+      "handle": "@levelsio",
+      "type": "tweets",
+      "description": "Pieter's primary channel — build in public updates, revenue screenshots, hot takes"
+    },
+    "youtube": {
+      "channels": ["@levelsio"],
+      "search_queries": ["Pieter Levels interview", "levelsio interview", "Pieter Levels talk"],
+      "type": "transcript",
+      "tool": "yt-dlp --write-auto-sub --skip-download"
+    },
+    "blog": {
+      "url": "https://levels.io/blog/",
+      "type": "html",
+      "description": "Pieter's blog — detailed posts on building and shipping",
+      "key_posts": [
+        "https://levels.io/12-startups-12-months/ — 12 Startups in 12 Months",
+        "https://levels.io/startups/ — Turning Side Projects Into Profitable Startups"
+      ]
+    },
+    "podcast": {
+      "episodes": [
+        "Lex Fridman Podcast #440 — Pieter Levels (August 2024, NOT #470)",
+        "My First Million — Pieter Levels episodes",
+        "Indie Hackers Podcast — Pieter Levels",
+        "Cheeky Pint — Serial entrepreneur Pieter Levels"
+      ],
+      "type": "transcript"
+    },
+    "book": {
+      "title": "MAKE: The Indie Maker Blueprint",
+      "url": "https://readmake.com/",
+      "type": "book",
+      "description": "Pieter's book on building indie startups — $93K/month in revenue"
+    },
+    "community": {
+      "hn_user": "levelsio",
+      "type": "comments",
+      "description": "HN comments and Show HN posts"
+    }
+  }
+}

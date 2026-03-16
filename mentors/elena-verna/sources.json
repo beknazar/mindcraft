@@ -1,0 +1,47 @@
+{
+  "name": "elena-verna",
+  "shortcut": "elena",
+  "sources": {
+    "substack": {
+      "url": "https://www.elenaverna.com/",
+      "type": "rss",
+      "description": "Elena's Growth Scoop — 86K+ subscribers, primary long-form content",
+      "key_posts": [
+        "Growth Lessons Behind Lovable's $6.6B Valuation",
+        "9 Ways Growth is Different in AI Companies",
+        "To PLG or Not PLG?",
+        "Growth Matrix (Motions x Levers)",
+        "Product-Led Growth is Many Things. But Here's What It's NOT",
+        "Five PLG Tactics Every Sales-Led Company Should Do",
+        "Reverse Trials: Examples",
+        "Growth is Now a Trust Problem"
+      ]
+    },
+    "twitter": {
+      "handle": "@ElenaVerna",
+      "type": "tweets",
+      "description": "Growth insights, PLG takes, counter-patterns"
+    },
+    "linkedin": {
+      "profile": "elenaverna",
+      "type": "posts",
+      "description": "Primary social platform — LinkedIn posts drive significant engagement"
+    },
+    "youtube": {
+      "search_queries": ["Elena Verna interview", "Elena Verna growth", "Elena Verna PLG", "Elena Verna Lovable"],
+      "type": "transcript",
+      "tool": "yt-dlp --write-auto-sub --skip-download"
+    },
+    "podcast": {
+      "episodes": [
+        "Lenny's Podcast — The new AI growth playbook for 2026: How Lovable hit $200M ARR (Dec 2024)",
+        "Lenny's Podcast — 10 growth tactics that never work (Jan 2025)",
+        "Lenny's Podcast — The ultimate guide to product-led sales (Apr 2023)",
+        "Lenny's Podcast — Elena Verna on how B2B growth is changing (Jun 2022)",
+        "20VC — The 3 Levers to Successful Growth Models",
+        "Product School — Lovable's $100M ARR Strategy & New AI Growth Rules"
+      ],
+      "type": "transcript"
+    }
+  }
+}

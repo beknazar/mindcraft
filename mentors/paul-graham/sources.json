@@ -1,0 +1,45 @@
+{
+  "name": "paul-graham",
+  "shortcut": "pg",
+  "sources": {
+    "blog": {
+      "url": "http://paulgraham.com/articles.html",
+      "type": "html",
+      "description": "PG's essay archive — the primary source of his thinking. 200+ essays since 2001.",
+      "key_essays": [
+        "startupideas.html - How to Get Startup Ideas",
+        "ds.html - Do Things That Don't Scale",
+        "makersschedule.html - Maker's Schedule, Manager's Schedule",
+        "greatwork.html - How to Do Great Work",
+        "schlep.html - Schlep Blindness",
+        "avg.html - Beating the Averages",
+        "say.html - What You Can't Say",
+        "hp.html - Hackers and Painters",
+        "persistence.html - The Right Kind of Stubborn (Sep 2024)",
+        "foundermode.html - Founder Mode (Sep 2024)",
+        "writes.html - Writes and Write-Nots (Jan 2025)"
+      ]
+    },
+    "youtube": {
+      "channels": ["@ycombinator"],
+      "search_queries": ["Paul Graham interview", "Paul Graham talk", "Paul Graham YC startup school"],
+      "type": "transcript",
+      "tool": "yt-dlp --write-auto-sub --skip-download"
+    },
+    "hackernews": {
+      "user": "pg",
+      "api": "https://hacker-news.firebaseio.com/v0/user/pg.json",
+      "type": "comments",
+      "description": "PG's HN comments — often contain insights not in essays"
+    },
+    "podcast": {
+      "episodes": [
+        "Conversations with Tyler — Paul Graham on Ambition, Art, and Evaluating Talent (July 2023)",
+        "The Social Radars — Paul Graham (May 2023)",
+        "YC Startup School — Paul Graham talks (various)"
+      ],
+      "type": "transcript",
+      "note": "PG has NOT appeared on Lex Fridman podcast. Episode #307 was Brian Armstrong, not PG."
+    }
+  }
+}
