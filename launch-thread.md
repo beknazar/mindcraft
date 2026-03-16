@@ -1,63 +1,68 @@
 # X Launch Thread
 
-Copy-paste each tweet separately. Tag @ElenaVerna and @levelsio in tweet 1.
+Copy-paste each tweet separately.
 
 ---
 
 ## 1/7 (Hook)
 
-I created a Claude Code skill that gives you your own board of directors.
+I built a Claude Code skill that gives you a personal board of directors.
 
-It reads your project, picks 3 advisors (Paul Graham, @ElenaVerna, @levelsio), and runs a live brainstorming session where they actually argue with each other about your product.
+It reads your project, figures out what you're building, and picks 3 advisors from anyone in the world. Not a fixed list. It assembles the right board for your specific situation.
 
-It's called Mindcraft. Here's what it does:
+Then they debate your product in a live session.
 
-## 2/7 (Board Mode)
+## 2/7 (How it picks)
+
+Building a voice AI startup? It might pick Jeff Dean, Patrick Collison, and Tomasz Tunguz.
+
+Consumer app with flat growth? Maybe Andrew Chen, Julie Zhuo, and Naval.
+
+Developer tool? Guillermo Rauch, DHH, and Elena Verna.
+
+It reads your code, your README, your stage. Then recommends who you actually need.
+
+## 3/7 (The session)
 
 You type /mindcraft board.
 
-It reads your code, your README, your git history. Recommends 3 advisors based on what you're building.
+Each advisor gives their first take on your project. Then they start debating.
 
-A product person. A growth person. An execution person.
+The best part? They disagree. One says talk to users first. Another says your growth loop is broken. The third says you're overcomplicating it.
 
-Each one gives their first take on your project. Then the debate starts.
+After each round it checks in: "Want to go deeper?" It's a real conversation.
 
-## 3/7 (The tension)
+## 4/7 (Example mentors)
 
-The best part? They disagree.
+It ships with deep knowledge bases for 3 mentors as examples:
 
-PG tells you to talk to users before building anything else. Elena says your growth loop is broken. Levels says you're overcomplicating it and should charge $19/month tomorrow.
+PG (200+ verified essays), Elena Verna (Lovable's $200M ARR playbook), and @levelsio ($420K/month solo, zero employees).
 
-After each round it checks in with you. "Does this resonate? Want to go deeper?" It's a real conversation, not a wall of text.
+Sourced quotes, decision frameworks, voice guides. Not vibes. Real verified content.
 
-## 4/7 (Knowledge base)
-
-Each mentor has a full knowledge base from their actual writing.
-
-PG's 200+ essays. Elena's Substack on PLG and how Lovable hit $200M ARR. Levels' Lex Fridman interview, his MAKE book, his tweets about doing $420K/month solo with zero employees.
-
-Every quote verified. Not vibes. Actual frameworks.
+But the board works with anyone.
 
 ## 5/7 (Other modes)
 
-It can also do:
+Quick questions to any mentor:
+/mindcraft pg: should I raise?
 
-/mindcraft pg: should I raise a seed round?
-(PG responds in his voice, cites specific essays)
-
+Get your idea roasted:
 /mindcraft roast "my startup idea"
-(all 3 mentors tear it apart)
 
+Roundtable with action items:
 /mindcraft strategy: growth is flat
-(roundtable with action items)
+
+Crash course in anyone's thinking:
+/mindcraft learn elena --topic growth-loops
 
 ## 6/7 (Open source)
 
-It's open source. You can add your own mentors.
+It's open source. Add deep knowledge bases for any mentor you want.
 
-Want DHH? Naval? Karpathy? Julie Zhuo? Create a folder with their principles, quotes, frameworks, and voice guide. That's it.
+Create a folder with their principles, quotes, frameworks, and voice guide. PRs welcome.
 
-PRs welcome. Contributor guide is in the repo.
+Or just use the board. It works with anyone out of the box, no setup needed.
 
 ## 7/7 (Install + CTA)
 
@@ -67,4 +72,4 @@ git clone https://github.com/beknazar/mindcraft.git ~/.claude/skills/mindcraft
 
 Open any project. Type /mindcraft board.
 
-Which mentor would you add first?
+What advisor would give your project the best advice right now?

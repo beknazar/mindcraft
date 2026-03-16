@@ -1,6 +1,6 @@
 ---
 name: mindcraft
-description: Channel the thinking of elite founders and growth leaders into your product decisions. Get advice from Paul Graham, Elena Verna, Pieter Levels and more.
+description: Your AI Board of Directors. Reads your project, recommends the right advisors from anyone in the world, and runs interactive brainstorming sessions where they debate your product decisions. Ships with PG, Elena Verna, and Levels as example mentors.
 argument-hint: "[mentor]: [question]" or "roast [target]" or "board" or "strategy: [challenge]" or "learn [mentor]"
 version: 1.0.0
 author: abdik
